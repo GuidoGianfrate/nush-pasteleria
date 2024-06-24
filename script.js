@@ -314,6 +314,9 @@ function agregarModalMaximizarFotos() {
     document.body.appendChild(modalDiv);
 }
 
+function openWindowWithPath(path) {
+    window.location.href = path;
+}
 
 
 
