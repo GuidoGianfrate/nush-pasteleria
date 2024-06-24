@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nush Pastelería</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logo/logo.jpeg" type="image/x-icon">
+</head>
+<body>
+
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="index.html">
+            <img src="img/logo/logo.jpeg" class="card-img-top img-circular" alt="logo">
+        </a>
+        <a class="navbar-brand" href="#">Nush Pastelería</a>
+        <button id="nav-index" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tortas.html">Tortas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="muffins.html">Muffins</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="macarons.html">Macarons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cookies.html">Cookies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="alfajores.html">Alfajores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="miniCake.html">Mini Cakes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <button class="btn-black" onclick="window.location.href='carrito.html'">Carrito</button>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron text-center" id="header">
+        <h1 class="display-5">Nush Pastelería</h1>
+    </header>
+
+    <section id="productos" class="container mt-5">
+        <h2 class="textoCategorias">¿Con que te tentas hoy?</h2>
+        <div class="row">
+            <!-- Categoría: Tortas -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Tortas</h5>
+                    </div>
+                    <img src="img/tortas/torta1.jpeg" class="card-img-top" alt="Tortas">
+                    <div class="content">
+                        <div class="card-body">
+                            <p class="card-text">Deliciosas tortas para toda ocasión. Personalizables y con ingredientes de la mejor calidad.</p>
+                            <a href="tortas.html" class="btn-black">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Categoría: Muffins -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Muffins</h5>
+                    </div>
+                    <img src="img/muffins/muffin1.png" class="card-img-top" alt="Muffins">
+                    <div class="content">
+                        <div class="card-body">
+                            <p class="card-text">Muffins esponjosos y sabrosos, disponibles en una variedad de sabores.</p>
+                            <a href="muffins.html" class="btn-black">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Categoría: Macarons -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Macarons</h5>
+                    </div>
+                    <img src="img/macarons/macaron1.jpeg" class="card-img-top" alt="Macarons">
+                    <div class="content">
+                        <div class="card-body">
+                            <p class="card-text">Elegantes y coloridos macarons, perfectos para cualquier celebración.</p>
+                            <a href="macarons.html" class="btn-black">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <!-- Categoría: Cookies -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Cookies</h5>
+                    </div>
+                    <img src="img/cookies/cookie1.jpeg" class="card-img-top" alt="Cookies">
+                    <div class="content">
+                        <div class="card-body">
+                            <p class="card-text">Deliciosas cookies para compartir.</p>
+                            <a href="cookies.html" class="btn-black">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Categoría: Mini Cakes -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Mini Cakes</h5>
+                    </div>
+                    <img src="img/miniCakes/miniCake1.jpeg" class="card-img-top" alt="Mini Cakes">
+                    <div class="content">
+                        <div class="card-body">
+                            <p class="card-text">Mini Cakes para que puedas probar mas!.</p>
+                            <a href="miniCake.html" class="btn-black">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Categoría: Alfajores -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Alfajores</h5>
+                    </div>
+                    <img src="img/alfajores/alfajor1.jpeg" class="card-img-top" alt="Alfajores">
+                    <div class="content">
+                        <div class="card-body">
+                            <p class="card-text">Tradicionales y deliciosos alfajores, perfectos para cualquier ocasión.</p>
+                            <a href="alfajores.html" class="btn-black">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- Nosotros -->
+    <section id="nosotros" class="container mt-5">
+        <h2 class="display-4">Nosotros</h2>
+        <p class="lead mt-4">Nush Pastelería es un emprendimiento apasionado que surge del amor por la repostería y el deseo de compartir dulces momentos. Somos una pareja que se dedica a crear delicias únicas con los mejores ingredientes y mucho cariño.</p>
+        <p class="lead">Nuestra página web está aquí para facilitar tus pedidos y brindarte toda la información que necesitas. Síguenos en Instagram para estar al día con nuestras últimas novedades, promociones y creaciones.</p>
+        <p class="lead">En Nush Pastelería, cada producto es elaborado con dedicación y atención al detalle, garantizando frescura y calidad en cada bocado. ¡Esperamos que disfrutes de nuestros dulces tanto como nosotros disfrutamos haciéndolos!</p>
+    </section>
+
+  <!-- Contacto -->
+<section id="contacto" class="container mt-5 text-center">
+    <h2 class="display-4">Contacto</h2>
+    <p>Contactanos por WhatsApp: <a href="https://api.whatsapp.com/send/?phone=5493329569447&text&type=phone_number&app_absent=0" target="_blank">+54 9 3329 569447</a></p>
+    <p>Seguinos en Instagram: <a href="https://www.instagram.com/nush.pasteleria/" target="_blank">@nush.pasteleria</a></p>
+</section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5 py-4 bg-light" id="footer-index">
+        <a href="https://www.instagram.com/nush.pasteleria/" class="instagram" target="_blank">
+            <img src="img/instagram-icono.png" alt="instagram">
+        </a>
+        <p>&copy; 2024 Nush Pastelería. Todos los derechos reservados.</p>
+        <a href="https://api.whatsapp.com/send/?phone=5493329569447&text&type=phone_number&app_absent=0" class="whatsapp" target="_blank">
+            <img src="img/wp-icono.png" alt="WhatsApp">
+        </a>        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    </script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></>
+    <script src="script.js"></script>
+
+</body>
+</html>
