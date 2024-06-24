@@ -53,7 +53,7 @@ function mostrarCarrito() {
             <div class="empty-cart-message">
                 <h3>Tu carrito está vacío 😢</h3>
                 <p>¡No te quedes sin probar nuestras delicias! Agrega tus pasteles favoritos y disfruta del sabor casero que tanto amas. 🍰</p>
-                <a href="productos.html" class="btn btn-black">Ver Productos</a>
+                <a href="index.html" class="btn btn-black">Ver Productos</a>
             </div>
         `;
     } else {
