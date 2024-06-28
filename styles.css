@@ -2,26 +2,9 @@ body {
     font-family: 'Montserrat';
 }
 
-header {
-    background-color: #f8f9fa;
-    padding: 2rem 0;
-}
-
-header .display-4 {
-    color: #6c757d;
-}
-
 .card img {
     height: 200px;
     object-fit: cover;
-}
-
-#footer-index {
-    display: flex;
-    justify-content: space-between; /* Alinea los elementos a los extremos */
-    align-items: center; /* Centra verticalmente los elementos */
-    padding: 10px; /* Ajusta el padding según sea necesario */
-    background-color: #f8f9fa; /* Color de fondo del footer */
 }
 
 .whatsapp {
@@ -53,14 +36,15 @@ header .display-4 {
     overflow: hidden;
 }
 
-#header {
+#titulo-pag {
     display: flex;
     background-color: black;
-    color: white; /* Color del texto para contrastar con la imagen */
-    height: 50px; /* Establece el alto deseado */
+    color: white;
+    height: 50px; 
     flex-direction: column;
-    justify-content: center; /* Centra verticalmente */
-    align-items: center; /* Centra horizontalmente */
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
 }
 
 .btn-black {
@@ -308,12 +292,6 @@ header .display-4 {
     text-decoration: underline;
 }
 
-@media (max-width: 700px) {
-    #nav-index {
-        display: none;
-    }
-}
-
 /*Para mobile*/
 .card-img-overlay {
     position: absolute;
@@ -351,9 +329,18 @@ header .display-4 {
     display: none;
 }
 
+
 /*Para PC*/
 
-@media (min-width: 700px) {
+@media (min-width: 730px) {
+
+    #navBarMobile{
+        display:none
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
 
     .card-text-mobile-hidden {
         display: block;
@@ -402,9 +389,54 @@ header .display-4 {
     }
 }
 
+@media (max-width: 725px) {
 
+    #display-title{
+        display: none;
+    }
 
+    #titulo-pag{
+        padding: 10%;
+    }
 
+    #titulo-pag h1{
+        font-size: 3.6rem; 
+    }
+}
 
+#footer-cs {
+    background-color: #000000; /* Fondo negro */
+    padding: 20px 0;
+    border-top: 2px solid #ffffff; /* Borde superior blanco */
+    color: #ffffff; /* Texto blanco */
+}
 
+#footer-cs .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
 
+#footer-cs .container div {
+    margin: 10px 20px;
+}
+
+#footer-cs h5 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #ffffff; /* Texto blanco */
+}
+
+#footer-cs p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #ffffff; /* Texto blanco */
+}
+
+#links{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -4,52 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muffins - Nush Pastelería</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="img/logo/logo.jpeg" type="image/x-icon">
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="index.html">
-            <img src="img/logo/logo.jpeg" class="card-img-top img-circular" alt="logo">
-        </a>   
-        <a class="navbar-brand" href="#">Nush Pastelería</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tortas.html" >Tortas</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="muffins.html">  Muffins </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="macarons.html" >Macarons</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cookies.html">Cookies</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="alfajores.html" >Alfajores</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="miniCake.html">Mini Cakes</a>
-                </li>
-            </ul>
-        </div>
-        <button class="btn-black" onclick="window.location.href='carrito.html'">Carrito</button>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+            <a href="index.html">
+                <img src="img/logo/logo.jpeg" class="card-img-top img-circular" alt="logo">
+            </a>   
+            <a class="navbar-brand" href="#">Nush Pastelería</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>  
+            <div class="collapse navbar-collapse" id="navbarNav" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tortas.html" >Tortas</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="muffins.html">  Muffins </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="macarons.html" >Macarons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cookies.html">Cookies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alfajores.html" >Alfajores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="miniCake.html">Mini Cakes</a>
+                    </li>
+                </ul>
+            </div>
 
-    <header class="jumbotron text-center" id="header">
-        <h1 class="display-5">Muffins</h1>
+            <button class="btn-black" onclick="window.location.href='carrito.html'">Carrito</button>
+        </nav>
     </header>
+
+  
+    <div class="jumbotron text-center" id="titulo-pag">
+        <h1 class="display-5">Muffins</h1>
+    </div>
 
    <!-- Productos -->
    <section id="productos" class="container mt-5">
@@ -59,18 +63,44 @@
 </section>
 
     <!-- Footer -->
-    <footer class="text-center mt-5 py-4 bg-light">
-        <p>&copy; 2024 Nush Pastelería. Todos los derechos reservados.</p>
+    <footer id="footer-cs">
+        <div class="container">
+            <div>
+                <h5>Liberi Meloni, Maria Sol</h5>
+                <p>Desarrollo Web</p>
+                <p>Viernes-Noche | 2024</p>
+            </div>
+            <div>
+                <h5>Gianfrate, Guido Agustin</h5>
+                <p>Desarrollo Web</p>
+                <p>Viernes-Noche | 2024</p>
+            </div>
+            <div>
+                <h5>Martinelli, Franco</h5>
+                <p>Desarrollo Web</p>
+                <p>Viernes-Noche | 2024</p>
+            </div>
+            <div>
+                <h5>Petta, Federico</h5>
+                <p>Desarrollo Web</p>
+                <p>Viernes-Noche | 2024</p>
+            </div>
+            <div>
+                <h5>Chung, Agustin</h5>
+                <p>Desarrollo Web</p>
+                <p>Viernes-Noche | 2024</p>
+            </div>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
     <script>
-        crearProducto('img/muffins/navidenio.png', 'Muffin Navideño', 'Muffin temanico navidad de chocolate', 3, 400);
-        crearProducto('img/muffins/barbie.png', 'Muffin Barbie', 'Muffin tematico Barbie, de color rosa pastel', 3, 450);
-        crearProducto('img/muffins/red-velvet.jpeg', 'Muffin Red Velvet', 'Muffing colorado con gannashe de chocolate blanco', 3, 500);
+        crearProducto('img/muffins/navidenio.png', 'Muffin Navideño', 'Temanico navidad de chocolate', 3, 400);
+        crearProducto('img/muffins/barbie.png', 'Muffin Barbie', 'Tematico Barbie, de color rosa pastel', 3, 450);
+        crearProducto('img/muffins/red-velvet.jpeg', 'Muffin Red Velvet', 'Colorado con gannashe de chocolate blanco', 3, 500);
     </script>
 </body>
 </html>
